@@ -42,7 +42,8 @@ if ($.isNode()) {
     if (CookieArr[i]) {
       cookieval = CookieArr[i];
       $.index = i + 1;
-      await getsign();
+      await getsign();         }  
+
       await coinInfo();
       await firstbox();
       await TaskCenter()
